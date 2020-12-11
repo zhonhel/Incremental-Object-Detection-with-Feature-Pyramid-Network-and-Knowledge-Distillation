@@ -61,7 +61,7 @@ when you want to test old category mAP:
 ```
 cd test-oldC
 
-make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_output_model
+make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_test_result
 ```
 
 
@@ -73,7 +73,7 @@ when you want to test new category mAP:
 ```
 cd test-newC
 
-make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_output_model
+make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_test_result
 ```
 
 
