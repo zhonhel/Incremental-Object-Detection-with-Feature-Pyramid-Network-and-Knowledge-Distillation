@@ -17,7 +17,9 @@ install memcached on its offical website(http://memcached.org/).
 
 after installed, run it:
 
+```
 memcached -p 11212 -m 2048m -I 64m -d
+```
 
 Notice: don't install detectron with "python setup.py", because we should run multiple different detectrons with adaptation .
 
@@ -27,11 +29,13 @@ Notice: don't install detectron with "python setup.py", because we should run mu
 
 Open a terminal and tap:
 
+```
 export CUDA_VISIBLE_DEVICES=0
 
 cd freeze
 
 make && python ./tools/train_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml --skip-test OUTPUT_DIR where_you_want_to_save_output_model
+```
 
 and wait 30 seconds...
 
@@ -42,6 +46,7 @@ and wait 30 seconds...
 
 
 Open another terminal and tap:
+```
 
 export CUDA_VISIBLE_DEVICES=1
 
@@ -49,16 +54,19 @@ cd train
 
 make && python ./tools/train_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml --skip-test OUTPUT_DIR where_you_want_to_save_output_model
 
-
+```
 
 ## Test:
 
 when you want to test old category mAP:
+```
+
+export CUDA_VISIBLE_DEVICES=0
 
 cd test-oldC
 
 make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_output_model
-
+```
 
 
 &nbsp;
@@ -66,11 +74,14 @@ make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEI
 
 
 when you want to test new category mAP:
+```
+
+export CUDA_VISIBLE_DEVICES=1
 
 cd test-newC
 
 make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_output_model
-
+```
 
 
 ## Information: 
