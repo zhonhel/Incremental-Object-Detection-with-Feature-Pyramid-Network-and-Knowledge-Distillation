@@ -7,7 +7,7 @@ The “target-after-sigmoid-distill-loss” folder is the train code in the cond
 
 CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs and each GPU'd better lager than 8GB memory ;
 
-PyTorch with the version released between 2018.12.1-2018-12.31, and should be compiled from source.(Because some ops written by detectron authors are not contained in PyTorch installation file).		
+PyTorch with the version released between 2018.10.1-2018.10.30, and should be compiled from source.(Because some ops written by detectron authors are not contained in PyTorch installation file).		
 
 
 
