@@ -34,7 +34,7 @@ cd freeze
 make && python ./tools/train_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml --skip-test OUTPUT_DIR where_you_want_to_save_output_model
 
 and wait 30 seconds...
-
+&nbsp;
 
 Open another terminal and tap:
 
@@ -53,7 +53,7 @@ when you want to test old category mAP:
 cd test-oldC
 
 make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEIGHTS the_absolute_path_to_your_model OUTPUT_DIR where_you_want_to_save_output_model
-
+&nbsp;
 
 when you want to test new category mAP:
 
