@@ -15,7 +15,7 @@ Note: don't install detectron with "python setup.py", because we should run mult
 
 ## Prepare to train:
 
-install memcached on its offical website(http://memcached.org/).
+Install memcached on its offical website(http://memcached.org/).
 
 after installed, run it:
 
@@ -57,7 +57,7 @@ make && python ./tools/train_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml --ski
 
 ## Test:
 
-when you want to test old category mAP:
+When you want to test old category mAP:
 ```
 cd test-oldC
 
@@ -69,7 +69,7 @@ make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEI
 
 
 
-when you want to test new category mAP:
+When you want to test new category mAP:
 ```
 cd test-newC
 
