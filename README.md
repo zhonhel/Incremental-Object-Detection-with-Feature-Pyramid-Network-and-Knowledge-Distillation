@@ -2,10 +2,14 @@
 The “target-after-sigmoid-distill-loss” folder is the train code in the condition of RPN use smoothL1 loss after sigmoid, and CLS use distill loss. Other conditions can be easily got with small modification on loss function and the position of loss function. 
 
 
+The “test-oldC” and “test-newC” folder are for testing, getting mAP on test dataset.
+
+
+The pdf file is my master thesis.
 
 ## Experiment environment:
 
-CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs and each GPU'd better lager than 8GB memory;
+CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs (One GPU's memory should larger than 8GB, the other one should larger than 6GB.)
 
 PyTorch with the version released between 2018.10.1-2018.10.30, and should be compiled from source.(Because some ops written by detectron authors are not contained in PyTorch installation file).	
 
