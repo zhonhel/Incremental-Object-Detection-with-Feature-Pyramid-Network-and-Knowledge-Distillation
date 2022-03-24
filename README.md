@@ -7,6 +7,10 @@ The “test-oldC” and “test-newC” folder are for testing, i.e. getting mAP
 
 The pdf file is my master thesis.
 
+## Accuracy:
+![VOC 2007 dataset accuracy](VOC-2007-dataset-accuracy.png)
+![MS COCO 2014 dataset accuracy](MS-COCO-2014-dataset-accuracy.png)
+
 ## Experiment environment:
 
 CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs (One GPU's memory should larger than 8GB, the other one should larger than 6GB.)
