@@ -9,8 +9,8 @@ The pdf file is my master thesis.
 
 ## Accuracy:
 
-<img src="VOC-2007-dataset-accuracy.png" width="80%" height="80%">
-<img src="MS-COCO-2014-dataset-accuracy.png" width="80%" height="80%">
+<img src="VOC-2007-dataset-accuracy.png">
+<img src="MS-COCO-2014-dataset-accuracy.png">
 
 [2] K. Shmelkov, C. Schmid, and K. Alahari, "Incremental learning of object detectors without catastrophic forgetting," in 2017 IEEE International Conference on Computer Vision (ICCV), Oct 2017, pp. 3420–3429.
 
