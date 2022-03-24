@@ -8,8 +8,9 @@ The “test-oldC” and “test-newC” folder are for testing, i.e. getting mAP
 The pdf file is my master thesis.
 
 ## Accuracy:
-![VOC 2007 dataset accuracy](VOC-2007-dataset-accuracy.png)
-![MS COCO 2014 dataset accuracy](MS-COCO-2014-dataset-accuracy.png)
+
+<img src="VOC-2007-dataset-accuracy.png" width="50%" height="50%">
+<img src="MS-COCO-2014-dataset-accuracy.png" width="50%" height="50%">
 
 [2] K. Shmelkov, C. Schmid, and K. Alahari, "Incremental learning of object detectors without catastrophic forgetting," in 2017 IEEE International Conference on Computer Vision (ICCV), Oct 2017, pp. 3420–3429.
 
