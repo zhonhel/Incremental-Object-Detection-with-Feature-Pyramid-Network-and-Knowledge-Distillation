@@ -11,6 +11,8 @@ The pdf file is my master thesis.
 ![VOC 2007 dataset accuracy](VOC-2007-dataset-accuracy.png)
 ![MS COCO 2014 dataset accuracy](MS-COCO-2014-dataset-accuracy.png)
 
+[2] K. Shmelkov, C. Schmid, and K. Alahari, "Incremental learning of object detectors without catastrophic forgetting," in 2017 IEEE International Conference on Computer Vision (ICCV), Oct 2017, pp. 3420–3429.
+
 ## Experiment environment:
 
 CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs (One GPU's memory should larger than 8GB, the other one should larger than 6GB.)
