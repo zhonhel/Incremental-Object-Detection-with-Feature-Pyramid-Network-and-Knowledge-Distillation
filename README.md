@@ -20,7 +20,7 @@ CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs (One GPU's memory should larger tha
 
 PyTorch with the version released between 2018.10.1-2018.10.30, and should be compiled from source. (Because some ops written by detectron authors are not contained in PyTorch python .whl file.)	
 
-Note: don't install detectron with "python setup.py", because we should run multiple different detectrons with adaptation.
+Note: don't install detectron with "python setup.py", because we will run multiple different detectrons with adaptation.
 
 
 
