@@ -7,14 +7,14 @@ The “test-oldC” and “test-newC” folder are for testing, i.e. getting mAP
 
 The pdf file is my master thesis.
 
-## Accuracy:
+## Accuracy
 
 <img src="VOC-2007-dataset-accuracy.png" height="80%" width="80%">
 <img src="MS-COCO-2014-dataset-accuracy.png" height="80%" width="80%">
 
 [2] K. Shmelkov, C. Schmid, and K. Alahari, "Incremental learning of object detectors without catastrophic forgetting," in 2017 IEEE International Conference on Computer Vision (ICCV), Oct 2017, pp. 3420–3429.
 
-## Experiment environment:
+## Experiment environment
 
 CentOS 7 or Ubuntu>=14.04;	python2.7;	2 GPUs (One GPU's memory should larger than 8GB, the other one should larger than 6GB.)
 
@@ -24,7 +24,7 @@ Note: don't install detectron with "python setup.py", because we should run mult
 
 
 
-## Prepare to train:
+## Prepare to train
 
 Install memcached on its offical website(http://memcached.org/).
 
@@ -36,7 +36,7 @@ memcached -p 11212 -m 2048m -I 64m -d
 
 
 
-## Train:
+## Train
 
 Open a terminal and tap:
 
@@ -66,7 +66,7 @@ make && python ./tools/train_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml --ski
 
 ```
 
-## Test:
+## Test
 
 When you want to test old category mAP:
 ```
@@ -88,12 +88,12 @@ make && python tools/test_net.py --cfg e2e_faster_rcnn_R-50-FPN_2x.yaml TEST.WEI
 ```
 
 
-## Information: 
+## Information
 The code based on Detectron with the version: after the commit at Nov 8, 2018. (<https://github.com/facebookresearch/Detectron/tree/8181a324796202e4afe7660b7458b7bf1e08cf8b>) 
 
 
 
-## Related paper:
+## Related paper
 
 Chen J, Wang S, Chen L, Cai H, and Qian Y. Incremental Detection of Remote Sensing Objects with Feature Pyramid and Knowledge Distillation[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
 
