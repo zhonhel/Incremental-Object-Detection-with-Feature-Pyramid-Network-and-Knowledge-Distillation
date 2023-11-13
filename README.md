@@ -4,7 +4,7 @@ Adding new classes to existing CNN model. For example, a model can recognize fir
 
 The pdf file in this repo is my master thesis.
 
-related paper: Chen J, Wang S, Chen L, Cai H, and Qian Y. Incremental Detection of Remote Sensing Objects with Feature Pyramid and Knowledge Distillation[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
+Related paper: Chen J, Wang S, Chen L, Cai H, and Qian Y. Incremental Detection of Remote Sensing Objects with Feature Pyramid and Knowledge Distillation[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
 
 
 The “target-after-sigmoid-distill-loss” folder is the train code in the condition of RPN use smoothL1 loss after sigmoid, and CLS use distill loss. Other conditions can be easily got with small modification on loss function and the position of loss function. 
