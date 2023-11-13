@@ -1,11 +1,17 @@
 # Incremental Object Detection with Feature Pyramid Network(FPN) and Knowledge Distillation
+
+Adding new classes to existing model. For example, a model can recognize first 40 classes in MS-COCO dataset, this work can train this model on remain 40 classes MS-COCO dataset, make it adding remain 40 classes recognize abilities.
+
+The pdf file in this repo is my master thesis.
+
+related paper: Chen J, Wang S, Chen L, Cai H, and Qian Y. Incremental Detection of Remote Sensing Objects with Feature Pyramid and Knowledge Distillation[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
+
+
 The “target-after-sigmoid-distill-loss” folder is the train code in the condition of RPN use smoothL1 loss after sigmoid, and CLS use distill loss. Other conditions can be easily got with small modification on loss function and the position of loss function. 
 
 
 The “test-oldC” and “test-newC” folder are for testing, i.e. getting mAP on test dataset.
 
-
-The pdf file is my master thesis.
 
 ## Accuracy
 
