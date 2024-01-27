@@ -1,7 +1,7 @@
 # Incremental Object Detection with Feature Pyramid Network(FPN) and Knowledge Distillation
 
-Adding new classes to existing CNN model. For example, a model can recognize first 40 classes in MS-COCO dataset, this work can train this model on remain 40 classes in MS-COCO dataset, make it adding remain 40 classes recognize ability.
-
+Adding new classes to existing CNN model. For example, a model can recognize first 40 classes in MS-COCO dataset(which contain 80 classes total), this work can train this model recognize other 40 classes, and still has ability to recognize the first 40 classes.
+ 
 The pdf file in this repo is my master thesis.
 
 Related paper: Chen J, Wang S, Chen L, Cai H, and Qian Y. Incremental Detection of Remote Sensing Objects with Feature Pyramid and Knowledge Distillation[J]. IEEE Transactions on Geoscience and Remote Sensing, 2020.
